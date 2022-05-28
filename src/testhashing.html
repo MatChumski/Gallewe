@@ -1,0 +1,14 @@
+<script>
+  import bcrypt from "bcryptjs";
+
+  const password = "admin";
+  const rounds = 10;
+
+  bcrypt.hash(password, rounds, (err, hash) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    console.log(hash);
+  });
+</script>

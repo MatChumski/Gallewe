@@ -1,0 +1,14 @@
+.homeContainer {
+  height: 200px;
+}
+
+.homeContent {
+  width: 90%;
+  height: 90%;
+
+  font-size: 15pt;
+}
+
+.mr {
+  margin-right: 16px;
+}

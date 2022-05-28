@@ -1,0 +1,180 @@
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+button,
+input {
+  font-family: "Lato", sans-serif;
+}
+
+input {
+  font-size: 12pt;
+}
+
+button {
+  cursor: pointer;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*rgb(0, 247, 255)*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+
+  width: 450px;
+  margin: auto;
+  margin-top: 65px;
+  padding: 5px;
+
+  overflow: hidden;
+
+  background-color: rgb(26, 26, 27);
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(37, 37, 37);
+  border-radius: 5px;
+}
+
+.containerTitle {
+  font-size: 20pt;
+  font-weight: 900;
+  color: rgb(0, 200, 210);
+  margin-bottom: 15px;
+}
+
+.menuTitle {
+  font-size: 20pt;
+  font-weight: bold;
+  color: rgb(0, 200, 210);
+  margin-bottom: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 60%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+
+  /* background-color: rgba(0, 215, 223, 0.178); */
+  border-radius: 30px;
+}
+
+.formInput {
+  width: 90%;
+  height: 25px;
+  margin-top: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(49, 49, 49);
+}
+
+.formInput::placeholder {
+  color: rgba(255, 255, 255, 0.61);
+  font-size: 12pt;
+}
+.formInput:focus {
+  border-color: rgb(0, 200, 210);
+}
+.formInput:hover {
+  background-color: rgb(61, 61, 61);
+}
+
+.submitButton {
+  background-color: rgb(0, 200, 210);
+}
+.submitButton:hover {
+  background-color: rgb(0, 241, 253);
+}
+
+.cancelButton {
+  background-color: rgb(136, 136, 136);
+}
+.cancelButton:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.regButton {
+  background-color: rgb(255, 255, 255);
+}
+.regButton:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.formButton {
+  margin-top: 5px;
+  width: 90%;
+  height: 25px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 12pt;
+
+  cursor: pointer;
+}
+
+/* Cositas */
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mt-65 {
+  margin-top: 65px;
+}
+
+.bs {
+  box-shadow: rgba(0, 95, 100, 0.35) 0px 10px 20px;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(49, 49, 49);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
